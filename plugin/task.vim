@@ -10,4 +10,4 @@ command! -nargs=0 MyTaskToggle call task#toggle(getline("."))
 command! -nargs=0 MyTaskAdd call task#add(getline("."))
 
 let &cpo = s:save_cpo
-unlet s:save_cpoo
+unlet s:save_cpo
