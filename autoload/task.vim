@@ -14,4 +14,4 @@ function! task#add(line)
 endfunction
 
 let &cpo = s:save_cpo
-unlet s:save_cpoo
+unlet s:save_cpo
