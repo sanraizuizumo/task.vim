@@ -5,7 +5,7 @@ function! task#toggle(line)
   if a:line =~ '^"*\s*\[/\]'
     call setline('.', substitute(a:line, '\[/\]', '[ ]', ''))
   else
-    call setline('.', substitute(a:line, '\[ \]', '[/], ''))
+    call setline('.', substitute(a:line, '\[ \]', '[/]', ''))
   endif
 endfunction
 
